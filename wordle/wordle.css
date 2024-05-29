@@ -1,0 +1,100 @@
+/* TODO: 在本文件中编写您的 CSS 代码 */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+#title {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+#board {
+  width: 350px;
+  height: 420px;
+  margin: 0 auto;
+  margin-top: 3px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tile {
+  border: 2px solid #D3D6Da;
+  width: 60px;
+  height: 60px;
+  margin: 2.5px;
+  color: black;
+  font-size: 36px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#button {
+
+  height: 60px;
+  width: 100px;
+  font-weight: bold;
+  visibility: hidden;
+  font-size: 18px;
+}
+
+.keyboard-row {
+  width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.key-tile {
+  border: 1px solid #D3D6Da;
+  width: 56px;
+  height: 60px;
+  background-color:#D3D6Da;
+  margin: 1px;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wider-key-tile {
+  border: 1px solid #D3D6Da;
+  width: 86px;
+  height: 60px;
+  background-color:#D3D6Da;
+  margin: 1px;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#result {
+  display: inline-block;
+  height: 60px;
+  width: 270px;
+  line-height: 60px;
+  text-align: left;
+  font-size: 30px;
+}
+
+.currect {
+  background-color: #6AAA64;
+  color: white;
+  border-color: white;
+}
+
+.present {
+  background-color: #C9B458;
+  color: white;
+  border-color: white;
+}
+
+.absent {
+  background-color: #787C7E;
+  color: white;
+  border-color: white;
+}
